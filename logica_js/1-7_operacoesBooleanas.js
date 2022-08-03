@@ -1,5 +1,5 @@
 /* 
-    Operaç]ões Booleanas | 1-7
+    Operações Booleanas | 1-7
 */ 
 
 let numeroUm = 1;
@@ -18,11 +18,11 @@ else{
 }
 
 // compara as variáveis numeroTrinta e stringTrinta
-if ( numeroTrinta == stringTrinta ){
-    console.log('As variáveis numeroTrinta e stringTrinta tem o mesmo valor, mas tipos diferentes');
+if ( numeroTrinta === stringTrinta ){
+    console.log('As variáveis numeroTrinta e stringTrinta tem o mesmo valor e mesmo tipo');
 }
 else{
-    console.log('As variáveis numeroTrinta e stringTrinta não tem o mesmo valor');
+    console.log('As variáveis numeroTrinta e stringTrinta não tem o mesmo tipo');
 }
 
 // compara as variáveis numeroDez e stringDez
