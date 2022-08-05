@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Fluxo de Decisão 3-7</title>
+
+    <style>
+        body{
+            padding: 2%;
+            background-color: #000;
+            color: #FFF;
+        }
+        
+        header{
+            text-align: center;
+        }
+
+        .divisor{
+            padding-top: 2%;
+            padding-bottom: 4%;
+        }
+
+        .camposForm{
+            vertical-align: middle;
+            padding: 0 20% 0 20%;
+        }
+
+        .form-floating{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../imagens/logo_7dayofcode.png">
+        </div>
+        <div class="divisor">
+            <img src="../imagens/divisorDia03.png">
+        </div>
+    </header>
+    <section class="camposForm">
+        <div class="form-floating">
+            <select class="form-select" id="slcArea">
+                <option value="front">Front-End</option>
+                <option value="back">Back-End</option>
+            </select>
+            <label for="slcArea">Qual área pretende seguir?</label>
+        </div>
+        <div class="form-floating optFrontEnd">
+            <select class="form-select" id="slcFrontEnd">
+                <option value="react">React</option>
+                <option value="vue">Vue</option>
+            </select>
+            <label for="slcFrontEnd">Qual tecnologia de Front-End quer aprender?</label>
+        </div>
+    </section>
+</body>
+</html>
