@@ -18,6 +18,10 @@
             text-align: center;
         }
 
+        label{
+            color: #000;
+        }
+
         .divisor{
             padding-top: 2%;
             padding-bottom: 4%;
@@ -45,32 +49,36 @@
     <section class="camposForm">
         <div class="form-floating">
             <select class="form-select" id="slcArea">
+                <option value="0">Selecione</option>
                 <option value="front">Front-End</option>
                 <option value="back">Back-End</option>
             </select>
             <label for="slcArea">Qual área pretende seguir?</label>
         </div>
-        <div class="form-floating optFrontEnd">
+        <div class="form-floating" id="optFrontEnd" style="display: none;">
             <select class="form-select" id="slcFrontEnd">
+                <option value="0">Selecione</option>
                 <option value="react">React</option>
                 <option value="vue">Vue</option>
             </select>
             <label for="slcFrontEnd">Qual tecnologia de Front-End quer aprender?</label>
         </div>
-        <div class="form-floating optBackEnd">
+        <div class="form-floating" id="optBackEnd" style="display: none;">
             <select class="form-select" id="slcBackEnd">
+                <option value="0">Selecione</option>
                 <option value="c#">C#</option>
                 <option value="java">Java</option>
             </select>
             <label for="slcBackEnd">Qual tecnologia de Back-End quer aprender?</label>
         </div>
-        <div class="form-floating optIsFullstack">
+        <div class="form-floating" id="optIsFullstack" style="display: none;">
             <select class="form-select" id="slcisFullStack">
+                <option value="0">Selecione</option>
                 <option value="continuarEstudando">Continuar estudando</option>
                 <option value="tornarFullStack">Tornar FullStack</option>
             </select>
             <label for="slcisFullStack">Você pretende continuar estudando na área escolhida ou tronar-se um FullStack?</label>
-        </div>
+        </div> 
     </section>
     <script src="./3-7_fluxoDecisao.js"></script>
 </body>
